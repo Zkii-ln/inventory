@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+      <link rel="stylesheet" href="css/home.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg shadow-sm sticky-top rounded">
+  <div class="container">
+    <a class="navbar-brand" href="#beranda">EduInventory</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav m-auto my-2 my-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" href="#beranda">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#fitur">Fitur</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#barang">Barang</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#why">Tentang</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Kontak</a>
+        </li>
+        <li class="nav-item mx-5">
+          <a href="login.php" class="btn btn-primary mx-5">Login</a>
+        </li>
+      </ul>
+      
+
+    </div>
+  </div>
+</nav>
+    <main>
+       <div class="container py-5">
+  <div class="beranda row py-4">
+    <div class="col-lg-7 pt-5">
+      <h1 class="pt-5">Ayo Pinjam Barang Sekarang!</h1>
+      <p class="mt-3" style="max-width: 600px;">
+        <i><strong>EduInventory</strong></i> membantu kamu meminjam barang sekolah dengan cepat dan mudah.
+        Mulai dari alat olahraga, proyektor, hingga perlengkapan kelas — semua tersedia untuk mendukung kegiatan belajar kamu.
+      </p>
+      <a href="register.php" class="btn1 btn-primary mt-3 p-2">Daftar</a>
+    </div>
+  </div>
+</div>
+         <section id="fitur" class="features my-5 py-5 rounded">
+      <div class="container">
+        <div class="row g-4">
+          <article class="col-md-4">
+            <div class="card h-100 text-center p-3">
+              <img src="https://i.pinimg.com/736x/d3/bf/8f/d3bf8fb83aecca439907f1a923e09c6f.jpg" class="card-img-top mx-auto" style="width: 80px;" alt="Asset Tracking">
+              <div class="card-body">
+                <h5 class="card-title">Pelacakan Aset</h5>
+                <p class="card-text">Lihat semua aset sekolah secara real-time dari satu dashboard.</p>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-4">
+            <div class="card h-100 text-center p-3">
+              <img src="https://i.pinimg.com/736x/34/95/b5/3495b51ca45b7f3ed63a19db5bc6a412.jpg" class="card-img-top mx-auto" style="width: 80px;" alt="Equipment Loan">
+              <div class="card-body">
+                <h5 class="card-title">Peminjaman / Pengembalian</h5>
+                <p class="card-text">Kelola peminjaman alat dan pengembalian dengan mudah.</p>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-4">
+            <div class="card h-100 text-center p-3">
+              <img src="https://i.pinimg.com/736x/06/6c/42/066c422c67267b9f6fe93fcf298d78f2.jpg" class="card-img-top mx-auto" style="width: 80px;" alt="Reporting">
+              <div class="card-body">
+                <h5 class="card-title">Laporan & Pengingat</h5>
+                <p class="card-text">Dapatkan laporan otomatis & notifikasi untuk masa pemeliharaan.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="barang" id="barang">
+  <div class="container py-5">
+    <div class="col-lg-5 m-auto text-center">
+      <h1>Pinjam Sekarang</h1>
+      <h6 style="color: aqua;">Lihat Barang Populer sekarang!</h6>
+    </div>
+    <div class="row shadow rounded">
+    <div class="col-lg-3 text-center">
+      <div class="card mb-2 bg-light border-0">
+        <div class="card-body">
+          <img src="img/hdmi.png" class="img-fluid" alt="">
+        </div>
+      </div>
+      <h6>HDMI Cable</h6>
+      <p>Tersedia</p>
+    </div>
+    <div class="col-lg-3 text-center">
+      <div class="card mb-2 bg-light border-0">
+        <div class="card-body">
+          <img src="img/sapu.png" class="img-fluid" alt="">
+        </div>
+      </div>
+      <h6>Sapu</h6>
+      <p>Tersedia</p>
+    </div>
+    <div class="col-lg-3 text-center">
+      <div class="card mb-2 bg-light border-0">
+        <div class="card-body">
+          <img src="img/raket.png" class="img-fluid" alt="">
+        </div>
+      </div>
+      <h6>Raket Badminton</h6>
+      <p>Tersedia</p>
+    </div>
+    <div class="col-lg-3 text-center">
+      <div class="card mb-2 bg-light border-0">
+        <div class="card-body">
+          <img src="img/tripod.png" class="img-fluid" style="height: 230px;" alt="">
+        </div>
+      </div>
+      <h6>Tripod</h6>
+      <p>Tersedia</p>
+    </div>
+  </div>
+  </div>
+  
+</section>
+    <section class="why-us py-5" id="why">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Kolom Gambar -->
+      <div class="col-md-4 mb-4 mb-md-0">
+        <img 
+          src="https://img.freepik.com/free-vector/businessmans-hand-holding-question-mark-person-asking-answer-help-support-flat-vector-illustration-faq-interrogation-difficulty-concept-banner-website-design-landing-web-page_74855-24358.jpg?semt=ais_hybrid&w=740&q=80" 
+          alt="Mengapa Memilih Kami" 
+          class="img-fluid rounded shadow">
+      </div>
+
+      <!-- Kolom Teks -->
+      <div class="col-md-6 offset-md-1">
+        <h2>Mengapa Memilih Sistem Kami?</h2>
+        <ul class="card-text list-unstyled mt-4">
+          <li class="mb-3"><i class="bi bi-clock-history me-2"></i> Hemat Waktu — Proses manual diminimalisir</li>
+          <li class="mb-3"><i class="bi bi-eye me-2"></i> Transparansi — Pantau status aset kapan saja</li>
+          <li class="mb-3"><i class="bi bi-gear me-2"></i> Fitur Lengkap — Laporan, pemeliharaan dll.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- Testimonial -->
+    <section class="testimonials py-5 bg-light">
+      <div class="container">
+        <h3 class="text-center mb-5">Apa Kata Mereka</h3>
+        <div class="row g-4">
+          <article class="col-md-4">
+            <div class="card p-4 h-100 shadow-sm">
+              <p class="card-text">"ini sangat membantu sekolah kami dalam memonitor peminjaman alat praktik."</p>
+              <div class="d-flex align-items-center mt-3">
+                <img src="https://i.pinimg.com/736x/3b/89/55/3b8955693006933f1a8b4f9eb26ba2f8.jpg" class="rounded-circle me-3" width="50" height="50" alt="User1">
+                <div>
+                  <h6 class="mb-0">Satoru</h6>
+                  <small>Laboratorium</small>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-4">
+            <div class="card p-4 h-100 shadow-sm">
+              <p class="card-text">"Laporan kerusakan dan penggantian jauh lebih cepat sekarang."</p>
+              <div class="d-flex align-items-center mt-3">
+                <img src="https://i.pinimg.com/1200x/ac/cc/10/accc10f9de69d095633e634f02164608.jpg" class="rounded-circle me-3" width="50" height="50" alt="User2">
+                <div>
+                  <h6 class="mb-0">Mai</h6>
+                  <small>Pemeliharaan</small>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="col-md-4">
+            <div class="card p-4 h-100 shadow-sm">
+              <p class="card-text">"Notifikasi pengingat membuat alat-alat yang rusak segera diperbaiki."</p>
+              <div class="d-flex align-items-center mt-3">
+                <img src="https://i.pinimg.com/736x/64/38/93/643893f6aa2c577ee0a93f2accec820e.jpg" class="rounded-circle me-3" width="50" height="50" alt="User3">
+                <div>
+                  <h6 class="mb-0">Nanami</h6>
+                  <small>Teknik & Multimedia</small>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    </main>
+    <footer class="footer bg-dark text-light py-4">
+    <div class="container text-center">
+      <p>&copy; 2025 EduInventory. Semua hak dilindungi.</p>
+      <p>
+        <a href="#" class="text-light me-3">Tentang</a>
+        <a href="#" class="text-light me-3">Kontak</a>
+        <a href="#" class="text-light">Privacy Policy</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

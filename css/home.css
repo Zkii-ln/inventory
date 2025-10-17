@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../img/home.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.nav-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+.btn1{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: rgb(24, 240, 240);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.btn {
+  height: 45px; 
+  width: 30%; 
+  outline: none; 
+  border: none; 
+  background-color: rgb(24, 240, 240); 
+  color: white; 
+  border-radius: 60px; 
+  font-weight: 700;
+}
+.features {
+    background-color: rgb(190, 231, 255);
+}
+.features .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: black 1px solid;
+  border-radius: 40px;
+}
+.features .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.card-title, .card-text{
+  animation: scrolling linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 50%;
+}
+
+@keyframes scrolling {
+  from {
+    opacity: 0;
+    transform: scale(0.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
